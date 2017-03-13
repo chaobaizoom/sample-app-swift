@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9706FA51DADE1800018C04D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9706FA41DADE1800018C04D /* AppDelegate.swift */; };
+		D9706FA71DADE1800018C04D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9706FA61DADE1800018C04D /* ViewController.swift */; };
+		D9706FAA1DADE1800018C04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9706FA81DADE1800018C04D /* Main.storyboard */; };
+		D9706FAC1DADE1800018C04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9706FAB1DADE1800018C04D /* Assets.xcassets */; };
+		D9706FAF1DADE1800018C04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9706FAD1DADE1800018C04D /* LaunchScreen.storyboard */; };
+		D9706FB81DADE8500018C04D /* ZoomSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9706FB71DADE8500018C04D /* ZoomSDK.framework */; };
+		D9706FBA1DADE85B0018C04D /* ZoomSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9706FB91DADE85B0018C04D /* ZoomSDKResources.bundle */; };
+		D9706FBC1DADE8780018C04D /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9706FBB1DADE8780018C04D /* libz.1.2.5.tbd */; };
+		D9706FBE1DADE87F0018C04D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9706FBD1DADE87F0018C04D /* libsqlite3.tbd */; };
+		D9706FC01DADE8890018C04D /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9706FBF1DADE8890018C04D /* libstdc++.6.0.9.tbd */; };
+		D9706FC21DADE88F0018C04D /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9706FC11DADE88F0018C04D /* VideoToolbox.framework */; };
+		D9706FC41DADE8960018C04D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9706FC31DADE8960018C04D /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9706FA11DADE1800018C04D /* ZoomSDKSwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomSDKSwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9706FA41DADE1800018C04D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9706FA61DADE1800018C04D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9706FA91DADE1800018C04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9706FAB1DADE1800018C04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9706FAE1DADE1800018C04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9706FB01DADE1800018C04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9706FB61DADE7170018C04D /* Bridge-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		D9706FB71DADE8500018C04D /* ZoomSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZoomSDK.framework; path = lib/ZoomSDK.framework; sourceTree = "<group>"; };
+		D9706FB91DADE85B0018C04D /* ZoomSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZoomSDKResources.bundle; path = lib/ZoomSDKResources.bundle; sourceTree = "<group>"; };
+		D9706FBB1DADE8780018C04D /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		D9706FBD1DADE87F0018C04D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D9706FBF1DADE8890018C04D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		D9706FC11DADE88F0018C04D /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		D9706FC31DADE8960018C04D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9706F9E1DADE1800018C04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9706FC41DADE8960018C04D /* CoreBluetooth.framework in Frameworks */,
+				D9706FC21DADE88F0018C04D /* VideoToolbox.framework in Frameworks */,
+				D9706FC01DADE8890018C04D /* libstdc++.6.0.9.tbd in Frameworks */,
+				D9706FBE1DADE87F0018C04D /* libsqlite3.tbd in Frameworks */,
+				D9706FBC1DADE8780018C04D /* libz.1.2.5.tbd in Frameworks */,
+				D9706FB81DADE8500018C04D /* ZoomSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9706F981DADE1800018C04D = {
+			isa = PBXGroup;
+			children = (
+				D9706FA31DADE1800018C04D /* ZoomSDKSwiftSample */,
+				D9706FC51DADE8AF0018C04D /* Frameworks */,
+				D9706FA21DADE1800018C04D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9706FA21DADE1800018C04D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9706FA11DADE1800018C04D /* ZoomSDKSwiftSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9706FA31DADE1800018C04D /* ZoomSDKSwiftSample */ = {
+			isa = PBXGroup;
+			children = (
+				D9706FB61DADE7170018C04D /* Bridge-Header.h */,
+				D9706FA41DADE1800018C04D /* AppDelegate.swift */,
+				D9706FA61DADE1800018C04D /* ViewController.swift */,
+				D9706FA81DADE1800018C04D /* Main.storyboard */,
+				D9706FAB1DADE1800018C04D /* Assets.xcassets */,
+				D9706FAD1DADE1800018C04D /* LaunchScreen.storyboard */,
+				D9706FB01DADE1800018C04D /* Info.plist */,
+			);
+			path = ZoomSDKSwiftSample;
+			sourceTree = "<group>";
+		};
+		D9706FC51DADE8AF0018C04D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9706FC31DADE8960018C04D /* CoreBluetooth.framework */,
+				D9706FBD1DADE87F0018C04D /* libsqlite3.tbd */,
+				D9706FBF1DADE8890018C04D /* libstdc++.6.0.9.tbd */,
+				D9706FBB1DADE8780018C04D /* libz.1.2.5.tbd */,
+				D9706FC11DADE88F0018C04D /* VideoToolbox.framework */,
+				D9706FB71DADE8500018C04D /* ZoomSDK.framework */,
+				D9706FB91DADE85B0018C04D /* ZoomSDKResources.bundle */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9706FA01DADE1800018C04D /* ZoomSDKSwiftSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9706FB31DADE1800018C04D /* Build configuration list for PBXNativeTarget "ZoomSDKSwiftSample" */;
+			buildPhases = (
+				D9706F9D1DADE1800018C04D /* Sources */,
+				D9706F9E1DADE1800018C04D /* Frameworks */,
+				D9706F9F1DADE1800018C04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomSDKSwiftSample;
+			productName = ZoomSDKSwiftSample;
+			productReference = D9706FA11DADE1800018C04D /* ZoomSDKSwiftSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9706F991DADE1800018C04D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zoom Video Communications, Inc.";
+				TargetAttributes = {
+					D9706FA01DADE1800018C04D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D9706F9C1DADE1800018C04D /* Build configuration list for PBXProject "ZoomSDKSwiftSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9706F981DADE1800018C04D;
+			productRefGroup = D9706FA21DADE1800018C04D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9706FA01DADE1800018C04D /* ZoomSDKSwiftSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9706F9F1DADE1800018C04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9706FBA1DADE85B0018C04D /* ZoomSDKResources.bundle in Resources */,
+				D9706FAF1DADE1800018C04D /* LaunchScreen.storyboard in Resources */,
+				D9706FAC1DADE1800018C04D /* Assets.xcassets in Resources */,
+				D9706FAA1DADE1800018C04D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9706F9D1DADE1800018C04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9706FA71DADE1800018C04D /* ViewController.swift in Sources */,
+				D9706FA51DADE1800018C04D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9706FA81DADE1800018C04D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9706FA91DADE1800018C04D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9706FAD1DADE1800018C04D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9706FAE1DADE1800018C04D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9706FB11DADE1800018C04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9706FB21DADE1800018C04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9706FB41DADE1800018C04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/lib\"",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = ZoomSDKSwiftSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ZoomSDKSwiftSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZoomSDKSwiftSample/Bridge-Header.h";
+			};
+			name = Debug;
+		};
+		D9706FB51DADE1800018C04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/lib\"",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = ZoomSDKSwiftSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ZoomSDKSwiftSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZoomSDKSwiftSample/Bridge-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9706F9C1DADE1800018C04D /* Build configuration list for PBXProject "ZoomSDKSwiftSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9706FB11DADE1800018C04D /* Debug */,
+				D9706FB21DADE1800018C04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9706FB31DADE1800018C04D /* Build configuration list for PBXNativeTarget "ZoomSDKSwiftSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9706FB41DADE1800018C04D /* Debug */,
+				D9706FB51DADE1800018C04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9706F991DADE1800018C04D /* Project object */;
+}
