@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D960B3451ECBDD2900844F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D960B3441ECBDD2900844F37 /* AppDelegate.swift */; };
+		D960B3471ECBDD2900844F37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D960B3461ECBDD2900844F37 /* ViewController.swift */; };
+		D960B34A1ECBDD2900844F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D960B3481ECBDD2900844F37 /* Main.storyboard */; };
+		D960B34C1ECBDD2900844F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D960B34B1ECBDD2900844F37 /* Assets.xcassets */; };
+		D960B34F1ECBDD2900844F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D960B34D1ECBDD2900844F37 /* LaunchScreen.storyboard */; };
+		D960B35A1ECBDEE000844F37 /* MobileRTCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D960B3581ECBDEE000844F37 /* MobileRTCResources.bundle */; };
+		D960B35E1ECBE05800844F37 /* MobileRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D960B35D1ECBE05800844F37 /* MobileRTC.framework */; };
+		D960B3601ECBE09900844F37 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D960B35F1ECBE09900844F37 /* libsqlite3.0.tbd */; };
+		D960B3621ECBE0A200844F37 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D960B3611ECBE0A200844F37 /* libstdc++.6.0.9.tbd */; };
+		D960B3641ECBE0A900844F37 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D960B3631ECBE0A900844F37 /* libz.1.2.5.tbd */; };
+		D960B3661ECBE0B500844F37 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D960B3651ECBE0B500844F37 /* VideoToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D960B3411ECBDD2900844F37 /* MobileRTCSwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileRTCSwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D960B3441ECBDD2900844F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D960B3461ECBDD2900844F37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D960B3491ECBDD2900844F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D960B34B1ECBDD2900844F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D960B34E1ECBDD2900844F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D960B3501ECBDD2900844F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D960B3581ECBDEE000844F37 /* MobileRTCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobileRTCResources.bundle; path = ../lib/MobileRTCResources.bundle; sourceTree = "<group>"; };
+		D960B35D1ECBE05800844F37 /* MobileRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileRTC.framework; path = ../lib/MobileRTC.framework; sourceTree = "<group>"; };
+		D960B35F1ECBE09900844F37 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		D960B3611ECBE0A200844F37 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		D960B3631ECBE0A900844F37 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		D960B3651ECBE0B500844F37 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		D960B3671ECBE16900844F37 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D960B33E1ECBDD2900844F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D960B3661ECBE0B500844F37 /* VideoToolbox.framework in Frameworks */,
+				D960B3641ECBE0A900844F37 /* libz.1.2.5.tbd in Frameworks */,
+				D960B3621ECBE0A200844F37 /* libstdc++.6.0.9.tbd in Frameworks */,
+				D960B3601ECBE09900844F37 /* libsqlite3.0.tbd in Frameworks */,
+				D960B35E1ECBE05800844F37 /* MobileRTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D960B3381ECBDD2900844F37 = {
+			isa = PBXGroup;
+			children = (
+				D960B3431ECBDD2900844F37 /* MobileRTCSwiftSample */,
+				D960B3561ECBDEC900844F37 /* Frameworks */,
+				D960B3421ECBDD2900844F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D960B3421ECBDD2900844F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D960B3411ECBDD2900844F37 /* MobileRTCSwiftSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D960B3431ECBDD2900844F37 /* MobileRTCSwiftSample */ = {
+			isa = PBXGroup;
+			children = (
+				D960B3441ECBDD2900844F37 /* AppDelegate.swift */,
+				D960B34B1ECBDD2900844F37 /* Assets.xcassets */,
+				D960B3671ECBE16900844F37 /* Bridging-Header.h */,
+				D960B3501ECBDD2900844F37 /* Info.plist */,
+				D960B34D1ECBDD2900844F37 /* LaunchScreen.storyboard */,
+				D960B3481ECBDD2900844F37 /* Main.storyboard */,
+				D960B3461ECBDD2900844F37 /* ViewController.swift */,
+			);
+			path = MobileRTCSwiftSample;
+			sourceTree = "<group>";
+		};
+		D960B3561ECBDEC900844F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D960B35F1ECBE09900844F37 /* libsqlite3.0.tbd */,
+				D960B3611ECBE0A200844F37 /* libstdc++.6.0.9.tbd */,
+				D960B3631ECBE0A900844F37 /* libz.1.2.5.tbd */,
+				D960B35D1ECBE05800844F37 /* MobileRTC.framework */,
+				D960B3581ECBDEE000844F37 /* MobileRTCResources.bundle */,
+				D960B3651ECBE0B500844F37 /* VideoToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D960B3401ECBDD2900844F37 /* MobileRTCSwiftSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D960B3531ECBDD2900844F37 /* Build configuration list for PBXNativeTarget "MobileRTCSwiftSample" */;
+			buildPhases = (
+				D960B33D1ECBDD2900844F37 /* Sources */,
+				D960B33E1ECBDD2900844F37 /* Frameworks */,
+				D960B33F1ECBDD2900844F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileRTCSwiftSample;
+			productName = MobileRTCSwiftSample;
+			productReference = D960B3411ECBDD2900844F37 /* MobileRTCSwiftSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D960B3391ECBDD2900844F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zoom Video Communications, Inc.";
+				TargetAttributes = {
+					D960B3401ECBDD2900844F37 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = BJ4HAAB9B3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D960B33C1ECBDD2900844F37 /* Build configuration list for PBXProject "MobileRTCSwiftSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D960B3381ECBDD2900844F37;
+			productRefGroup = D960B3421ECBDD2900844F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D960B3401ECBDD2900844F37 /* MobileRTCSwiftSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D960B33F1ECBDD2900844F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D960B34F1ECBDD2900844F37 /* LaunchScreen.storyboard in Resources */,
+				D960B35A1ECBDEE000844F37 /* MobileRTCResources.bundle in Resources */,
+				D960B34C1ECBDD2900844F37 /* Assets.xcassets in Resources */,
+				D960B34A1ECBDD2900844F37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D960B33D1ECBDD2900844F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D960B3471ECBDD2900844F37 /* ViewController.swift in Sources */,
+				D960B3451ECBDD2900844F37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D960B3481ECBDD2900844F37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D960B3491ECBDD2900844F37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D960B34D1ECBDD2900844F37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D960B34E1ECBDD2900844F37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D960B3511ECBDD2900844F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D960B3521ECBDD2900844F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D960B3541ECBDD2900844F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJ4HAAB9B3;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../lib\"";
+				INFOPLIST_FILE = MobileRTCSwiftSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.MobileRTCSwiftSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileRTCSwiftSample/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D960B3551ECBDD2900844F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJ4HAAB9B3;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../lib\"";
+				INFOPLIST_FILE = MobileRTCSwiftSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.MobileRTCSwiftSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileRTCSwiftSample/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D960B33C1ECBDD2900844F37 /* Build configuration list for PBXProject "MobileRTCSwiftSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D960B3511ECBDD2900844F37 /* Debug */,
+				D960B3521ECBDD2900844F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D960B3531ECBDD2900844F37 /* Build configuration list for PBXNativeTarget "MobileRTCSwiftSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D960B3541ECBDD2900844F37 /* Debug */,
+				D960B3551ECBDD2900844F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D960B3391ECBDD2900844F37 /* Project object */;
+}
