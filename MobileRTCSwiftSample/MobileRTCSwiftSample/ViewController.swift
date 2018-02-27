@@ -8,10 +8,10 @@
 
 import UIKit
 
-var rtc_userid = "";
-var rtc_username = "";
-var rtc_token = "";
-var rtc_meeting = "";
+var rtc_userid = "qxWBwXZKRteOHnS2nwzE7A";
+var rtc_username = "chaobai";
+var rtc_token = "8-XdJFEW4knX9K55500MfMOKwiAc3ZMozH8O7h0LhA0.BgMgUldJZnY2aHRPc0hZLzdmaDdwNFZpckFpNlo2UlBPSXpAYTQ1NmIwODhmZThjMGFlZjNjMTMzOTFjZmY4ZjI3ZGZlYzFhMzQ1YjIwN2IwZTYwZWY2NDRhZWNkNDU2YmM4NwAMM0NCQXVvaVlTM3M9";
+var rtc_meeting = "8819880823";
 
 
 class ViewController: UIViewController, MobileRTCMeetingServiceDelegate {

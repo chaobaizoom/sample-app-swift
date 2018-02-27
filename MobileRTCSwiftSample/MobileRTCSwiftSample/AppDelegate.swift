@@ -8,9 +8,9 @@
 
 import UIKit
 
-var rtc_appkey      = "";
-var rtc_appsecret   = "";
-var rtc_domain      = "";
+var rtc_appkey      = "QjJX5NPYQLOgGhWGV1yX9w";
+var rtc_appsecret   = "ZyLj97qe4ICXY2YEQtP3q9bQuBzlbGE6wBLV";
+var rtc_domain      = "zoom.us";
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, MobileRTCAuthDelegate {
@@ -49,7 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MobileRTCAuthDelegate {
     }
 
     func sdkAuth(){
-        MobileRTC.shared().mobileRTCDomain = rtc_domain;
+        MobileRTC.shared().setMobileRTCDomain(rtc_domain);
         
         let service = MobileRTC.shared().getAuthService();
         if (service != nil) {
