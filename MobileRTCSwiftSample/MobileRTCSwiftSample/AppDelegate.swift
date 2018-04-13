@@ -8,9 +8,9 @@
 
 import UIKit
 
-var rtc_appkey      = "QjJX5NPYQLOgGhWGV1yX9w";
-var rtc_appsecret   = "ZyLj97qe4ICXY2YEQtP3q9bQuBzlbGE6wBLV";
-var rtc_domain      = "zoom.us";
+var rtc_appkey      = "";
+var rtc_appsecret   = "";
+var rtc_domain      = "";
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, MobileRTCAuthDelegate {
